@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+img {
+  padding-bottom: 20px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+}
+
+.first-content h1 {
+  font-family: Big Shoulders Display;
+  padding-bottom: 15px;
+  text-transform: uppercase;
+}
+.first-content p {
+  font-family: Lexend Deca;
+  font-size: 11px;
+  line-height: 1.5em;
+  padding-bottom: 45px;
+}
+.first-content {
+  background-color: hsl(31, 77%, 52%);
+  padding: 30px;
+  color: white;
+  width: 150px;
+  border-radius: 10px 0px 0px 10px;
+  display: inherit;
+}
+.second-content p {
+  font-family: Lexend Deca;
+  font-size: 11px;
+  line-height: 1.5em;
+  padding-bottom: 45px;
+}
+.second-content h1 {
+  font-family: Big Shoulders Display;
+  padding-bottom: 15px;
+  text-transform: uppercase;
+}
+.second-content {
+  background-color: hsl(179, 100%, 13%);
+  padding: 30px;
+  color: white;
+  width: 150px;
+  display: inherit;
+}
+.third-content p {
+  font-family: Lexend Deca;
+  font-size: 11px;
+  line-height: 1.5em;
+  padding-bottom: 45px;
+}
+.third-content h1 {
+  font-family: Big Shoulders Display;
+  padding-bottom: 15px;
+  text-transform: uppercase;
+}
+.third-content {
+  background-color: hsl(184, 100%, 22%);
+  padding: 30px;
+  color: white;
+  width: 150px;
+  border-radius: 0px 10px 10px 0px;
+  display: inherit;
+}
+
+button {
+  background-color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.first-btn:hover {
+  background-color: hsl(31, 77%, 52%);
+  cursor: pointer;
+  border: 1px solid white;
+  color: white;
+}
+.second-btn:hover {
+  background-color: hsl(179, 100%, 13%);
+  cursor: pointer;
+  border: 1px solid white;
+  color: white;
+}
+.third-btn:hover {
+  background-color: hsl(184, 100%, 22%);
+  cursor: pointer;
+  border: 1px solid white;
+  color: white;
+}
+.first-btn {
+  color: hsl(31, 77%, 52%);
+}
+.second-btn {
+  color: hsl(179, 100%, 13%);
+}
+.third-btn {
+  color: hsl(184, 100%, 22%);
+}
